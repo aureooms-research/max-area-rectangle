@@ -1,0 +1,631 @@
+<?xml version="1.0"?>
+<!DOCTYPE ipe SYSTEM "ipe.dtd">
+<ipe version="70107" creator="Ipe 7.2.1">
+<info created="D:20160811161617" modified="D:20160812010311"/>
+<preamble>\usepackage{xfrac}</preamble>
+<ipestyle name="basic">
+<symbol name="arrow/arc(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/farc(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/ptarc(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-0.8 0 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/fptarc(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-0.8 0 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="mark/circle(sx)" transformations="translations">
+<path fill="sym-stroke">
+0.6 0 0 0.6 0 0 e
+0.4 0 0 0.4 0 0 e
+</path>
+</symbol>
+<symbol name="mark/disk(sx)" transformations="translations">
+<path fill="sym-stroke">
+0.6 0 0 0.6 0 0 e
+</path>
+</symbol>
+<symbol name="mark/fdisk(sfx)" transformations="translations">
+<group>
+<path fill="sym-fill">
+0.5 0 0 0.5 0 0 e
+</path>
+<path fill="sym-stroke" fillrule="eofill">
+0.6 0 0 0.6 0 0 e
+0.4 0 0 0.4 0 0 e
+</path>
+</group>
+</symbol>
+<symbol name="mark/box(sx)" transformations="translations">
+<path fill="sym-stroke" fillrule="eofill">
+-0.6 -0.6 m
+0.6 -0.6 l
+0.6 0.6 l
+-0.6 0.6 l
+h
+-0.4 -0.4 m
+0.4 -0.4 l
+0.4 0.4 l
+-0.4 0.4 l
+h
+</path>
+</symbol>
+<symbol name="mark/square(sx)" transformations="translations">
+<path fill="sym-stroke">
+-0.6 -0.6 m
+0.6 -0.6 l
+0.6 0.6 l
+-0.6 0.6 l
+h
+</path>
+</symbol>
+<symbol name="mark/fsquare(sfx)" transformations="translations">
+<group>
+<path fill="sym-fill">
+-0.5 -0.5 m
+0.5 -0.5 l
+0.5 0.5 l
+-0.5 0.5 l
+h
+</path>
+<path fill="sym-stroke" fillrule="eofill">
+-0.6 -0.6 m
+0.6 -0.6 l
+0.6 0.6 l
+-0.6 0.6 l
+h
+-0.4 -0.4 m
+0.4 -0.4 l
+0.4 0.4 l
+-0.4 0.4 l
+h
+</path>
+</group>
+</symbol>
+<symbol name="mark/cross(sx)" transformations="translations">
+<group>
+<path fill="sym-stroke">
+-0.43 -0.57 m
+0.57 0.43 l
+0.43 0.57 l
+-0.57 -0.43 l
+h
+</path>
+<path fill="sym-stroke">
+-0.43 0.57 m
+0.57 -0.43 l
+0.43 -0.57 l
+-0.57 0.43 l
+h
+</path>
+</group>
+</symbol>
+<symbol name="arrow/fnormal(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/pointed(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-0.8 0 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/fpointed(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-0.8 0 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/linear(spx)">
+<path stroke="sym-stroke" pen="sym-pen">
+-1 0.333 m
+0 0 l
+-1 -0.333 l
+</path>
+</symbol>
+<symbol name="arrow/fdouble(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+-1 0 m
+-2 0.333 l
+-2 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/double(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+-1 0 m
+-2 0.333 l
+-2 -0.333 l
+h
+</path>
+</symbol>
+<pen name="heavier" value="0.8"/>
+<pen name="fat" value="1.2"/>
+<pen name="ultrafat" value="2"/>
+<symbolsize name="large" value="5"/>
+<symbolsize name="small" value="2"/>
+<symbolsize name="tiny" value="1.1"/>
+<arrowsize name="large" value="10"/>
+<arrowsize name="small" value="5"/>
+<arrowsize name="tiny" value="3"/>
+<color name="red" value="1 0.5 0.5"/>
+<color name="green" value="0.5 1 0.5"/>
+<color name="blue" value="0.5 0.5 1"/>
+<color name="yellow" value="1 1 0.5"/>
+<color name="orange" value="1 0.823 0.5"/>
+<color name="gold" value="1 0.921 0.5"/>
+<color name="dark grey" value="0.2"/>
+<color name="light grey" value="0.8"/>
+<dashstyle name="dashed" value="[4] 0"/>
+<dashstyle name="dotted" value="[1 3] 0"/>
+<dashstyle name="dash dotted" value="[4 2 1 2] 0"/>
+<dashstyle name="dash dot dotted" value="[4 2 1 2 1 2] 0"/>
+<textsize name="large" value="\large"/>
+<textsize name="small" value="\small"/>
+<textsize name="tiny" value="\tiny"/>
+<textsize name="Large" value="\Large"/>
+<textsize name="LARGE" value="\LARGE"/>
+<textsize name="huge" value="\huge"/>
+<textsize name="Huge" value="\Huge"/>
+<textsize name="footnote" value="\footnotesize"/>
+<textstyle name="center" begin="\begin{center}" end="\end{center}"/>
+<textstyle name="itemize" begin="\begin{itemize}" end="\end{itemize}"/>
+<textstyle name="item" begin="\begin{itemize}\item{}" end="\end{itemize}"/>
+<gridsize name="4 pts" value="4"/>
+<gridsize name="8 pts (~3 mm)" value="8"/>
+<gridsize name="16 pts (~6 mm)" value="16"/>
+<gridsize name="32 pts (~12 mm)" value="32"/>
+<gridsize name="10 pts (~3.5 mm)" value="10"/>
+<gridsize name="20 pts (~7 mm)" value="20"/>
+<gridsize name="14 pts (~5 mm)" value="14"/>
+<gridsize name="28 pts (~10 mm)" value="28"/>
+<gridsize name="56 pts (~20 mm)" value="56"/>
+<anglesize name="90 deg" value="90"/>
+<anglesize name="60 deg" value="60"/>
+<anglesize name="45 deg" value="45"/>
+<anglesize name="30 deg" value="30"/>
+<anglesize name="22.5 deg" value="22.5"/>
+<tiling name="falling" angle="-60" step="4" width="1"/>
+<tiling name="rising" angle="30" step="4" width="1"/>
+</ipestyle>
+<ipestyle name="transparency">
+<opacity name="75%" value="0.75"/>
+<opacity name="50%" value="0.5"/>
+<opacity name="25%" value="0.25"/>
+<opacity name="10%" value="0.1"/>
+<opacity name="20%" value="0.2"/>
+<opacity name="30%" value="0.3"/>
+<opacity name="40%" value="0.4"/>
+<opacity name="60%" value="0.6"/>
+<opacity name="70%" value="0.7"/>
+<opacity name="80%" value="0.8"/>
+<opacity name="90%" value="0.9"/>
+</ipestyle>
+<page>
+<layer name="sandbox"/>
+<layer name="alpha"/>
+<layer name="trA"/>
+<layer name="trB"/>
+<layer name="trC"/>
+<layer name="axis"/>
+<layer name="h"/>
+<layer name="quadri"/>
+<view layers="alpha trA trB trC axis h quadri" active="quadri"/>
+<path layer="trB" matrix="1 0 0 1 -28 -152" fill="blue" opacity="30%">
+192 368 m
+311.458 437.592 l
+352 368 l
+h
+</path>
+<path layer="trC" matrix="1 0 0 1 -28 -152" fill="green" opacity="30%">
+192 368 m
+311.458 437.591 l
+311.458 368 l
+h
+</path>
+<path layer="trA" matrix="1 0 0 1 -28 -152" fill="orange" opacity="60%">
+192 368 m
+272 414.605 l
+272 368 l
+h
+</path>
+<path layer="quadri" matrix="1 0 0 1 164 -88" stroke="black">
+163.488 642.734 m
+166.179 645.174 l
+163.739 647.865 l
+</path>
+<use matrix="1 0 0 1 212 -184" name="mark/disk(sx)" pos="160 784" size="normal" stroke="black"/>
+<use matrix="1 0 0 1 212 -184" name="mark/disk(sx)" pos="352 768" size="normal" stroke="black"/>
+<use matrix="1 0 0 1 212 -184" name="mark/disk(sx)" pos="304 672" size="normal" stroke="black"/>
+<use matrix="1 0 0 1 212 -184" name="mark/disk(sx)" pos="176 672" size="normal" stroke="black"/>
+<path matrix="1 0 0 1 212 -184" stroke="black">
+160 784 m
+352 768 l
+304 672 l
+176 672 l
+160 784 l
+</path>
+<path matrix="1 0 0 1 212 -184" stroke="black" dash="dotted">
+176 672 m
+56.5685 0 0 -56.5685 168 728 160 784 a
+</path>
+<path matrix="1 0 0 1 212 -184" stroke="black" dash="dotted">
+160 784 m
+96.3328 0 0 -96.3328 256 776 352 768 a
+</path>
+<path matrix="1 0 0 1 212 -184" stroke="black" dash="dotted">
+352 768 m
+53.6656 0 0 -53.6656 328 720 304 672 a
+</path>
+<path matrix="1 0 0 1 212 -184" stroke="black" dash="dotted">
+304 672 m
+64 0 0 -64 240 672 176 672 a
+</path>
+<use layer="alpha" matrix="1 0 0 1 -28 -232" name="mark/disk(sx)" pos="192 448" size="normal" stroke="black"/>
+<use matrix="1 0 0 1 -28 -232" name="mark/disk(sx)" pos="352 448" size="normal" stroke="black"/>
+<path matrix="1 0 0 1 -28 -232" stroke="black" dash="dotted">
+192 448 m
+80 0 0 -80 272 448 352 448 a
+</path>
+<use matrix="1 0 0 1 -77.136 -199.797" name="mark/disk(sx)" pos="360.594 485.389" size="normal" stroke="black"/>
+<path layer="quadri" matrix="1.91746 0 0 1.91745 16.246 -680.149" stroke="black">
+161.048 645.425 m
+224 576 l
+</path>
+<path matrix="0 2.07932 -2.07932 0 1667.09 222.556" stroke="black">
+161.048 645.425 m
+224 576 l
+</path>
+<path matrix="0 2.07928 -2.07933 0 1787.81 89.441" stroke="black">
+161.048 645.425 m
+224 576 l
+</path>
+<path matrix="1.91746 0 0 1.91745 160.602 -549.251" stroke="black">
+161.048 645.425 m
+224 576 l
+</path>
+<path layer="alpha" matrix="1 0 0 1 -28 -152" stroke="black">
+192 368 m
+352 368 l
+</path>
+<path matrix="1 0 0 1 -28 -152" stroke="black">
+352 368 m
+311.458 437.592 l
+</path>
+<path matrix="1 0 0 1 -28 -152" stroke="black">
+311.458 437.592 m
+192 368 l
+</path>
+<path matrix="0 0.43495 -1 0 651.458 132.49" stroke="black" dash="dashed">
+192 368 m
+352 368 l
+</path>
+<path matrix="0 0.5 -1 0 612 120" stroke="black" dash="dotted">
+192 368 m
+352 368 l
+</path>
+<path matrix="1 0 0 1 -28 -152" stroke="black">
+198.758 371.937 m
+7.82058 0 0 -7.82058 192 368 199.821 368 a
+</path>
+<path matrix="1 0 0 1 -28 -152" stroke="black">
+344.179 368 m
+7.82058 0 0 -7.82058 352 368 348.063 374.758 a
+</path>
+<path matrix="1 0 0 1 -28 -152" stroke="black">
+315.395 430.834 m
+7.82058 0 0 -7.82058 311.458 437.592 304.701 433.655 a
+</path>
+<text matrix="1 0 0 1 -26.3602 -149.644" transformations="translations" pos="199.821 368" stroke="black" type="label" width="4.55" height="2.145" depth="0" valign="baseline" size="tiny">$\alpha$</text>
+<text matrix="1 0 0 1 91.527 -149.644" transformations="translations" pos="199.821 368" stroke="black" type="label" width="19.915" height="4.074" depth="2.65" valign="baseline" size="tiny">$\frac{\pi}{2} - \alpha$</text>
+<path matrix="1 0 0 1 -28 -152" stroke="black" arrow="linear/normal" rarrow="linear/normal">
+192 360 m
+352 360 l
+</path>
+<text matrix="1 0 0 1 -28 -156" transformations="translations" pos="272 356" stroke="black" type="label" width="3.685" height="3.459" depth="0" valign="baseline" size="tiny">$d$</text>
+<path matrix="0.5 0 0 1 68 -164" stroke="black" arrow="linear/normal" rarrow="linear/normal">
+192 360 m
+352 360 l
+</path>
+<text matrix="1 0 0 1 -71.685 -167.459" transformations="translations" pos="272 356" stroke="black" type="label" width="6.076" height="5.389" depth="2.65" valign="baseline" size="tiny">$\frac d2$</text>
+<path matrix="1 0 0 1 -28 -152" stroke="black" dash="dotted">
+272 368 m
+311.458 437.592 l
+</path>
+<path matrix="1 0 0 1 -28 -152" stroke="black">
+264.179 368 m
+7.82058 0 0 -7.82058 272 368 279.821 368 a
+</path>
+<text matrix="1 0 0 1 -73.0886 -202.753" transformations="translations" pos="304.235 426.243" stroke="black" type="label" width="6.71" height="4.074" depth="2.65" valign="baseline" size="tiny">$\frac{\pi}{2}$</text>
+<path matrix="1 0 0 1 -28 -152" stroke="black">
+265.242 410.668 m
+7.82058 0 0 7.82058 272 414.605 278.758 418.542 a
+</path>
+<text matrix="1 0 0 1 19.527 -113.644" transformations="translations" pos="199.821 368" stroke="black" type="label" width="19.915" height="4.074" depth="2.65" valign="baseline" size="tiny">$\frac{\pi}{2} - \alpha$</text>
+<path matrix="0 0.5 -1 0 504 120" stroke="black" arrow="linear/normal" rarrow="linear/normal">
+192 360 m
+352 360 l
+</path>
+<text matrix="1 0 0 1 -136 -101.35" transformations="translations" pos="272 356" stroke="black" type="label" width="6.076" height="5.389" depth="2.65" valign="baseline" size="tiny">$\frac d2$</text>
+<path matrix="0 0.43495 -1 0 708 132.49" stroke="black" arrow="linear/normal" rarrow="linear/normal">
+192 368 m
+352 368 l
+</path>
+<text matrix="1 0 0 1 -28 -152" transformations="translations" pos="372 400" stroke="black" type="label" width="8.001" height="2.15" depth="1.96" valign="baseline" size="tiny">$p_y$</text>
+<path matrix="0.35339 0 0 1 215.607 -82.4076" stroke="black" dash="dotted">
+192 368 m
+352 368 l
+</path>
+<path matrix="0.101201 0 0 -0.00092447 304.377 216.341" stroke="black" dash="dotted">
+192 368 m
+352 368 l
+</path>
+<path matrix="0.746614 0 0 1 20.65 -48" stroke="black" arrow="linear/normal" rarrow="linear/normal">
+192 360 m
+352 360 l
+</path>
+<path matrix="0 0.228517 -1 0 651.458 241.716" stroke="black" dash="dotted">
+192 368 m
+352 368 l
+</path>
+<path matrix="0 0.998802 -1 0 532 24.2294" stroke="black" dash="dotted">
+192 368 m
+352 368 l
+</path>
+<text matrix="1 0 0 1 -152 -83.01" transformations="translations" pos="372 400" stroke="black" type="label" width="8.126" height="2.151" depth="0.99" valign="baseline" size="tiny">$p_x$</text>
+<text matrix="1 0 0 1 50.9365 -105.532" transformations="translations" pos="199.821 368" stroke="black" type="label" width="19.639" height="4.074" depth="2.65" valign="baseline" size="tiny">$\frac{\pi}{2} + \alpha$</text>
+<text matrix="1 0 0 1 84.044 -96.0985" transformations="translations" pos="199.821 368" stroke="black" type="label" width="4.55" height="2.145" depth="0" valign="baseline" size="tiny">$\alpha$</text>
+<path matrix="0 0.799999 -1 0 691.808 62.4" stroke="black" dash="dotted">
+192 368 m
+352 368 l
+</path>
+<path matrix="0.337772 0 0 0.337772 218.606 161.291" stroke="black" dash="dashed">
+311.458 437.592 m
+192 368 l
+</path>
+<use matrix="1 0 0 1 -28 -152" name="mark/disk(sx)" pos="351.808 461.097" size="normal" stroke="black"/>
+<text matrix="1 0 0 1 -31.685 -149.847" transformations="translations" pos="311.458 437.592" stroke="black" type="label" width="3.685" height="2.153" depth="0.96" valign="baseline" size="tiny">$p$</text>
+<text matrix="1 0 0 1 -344.937 -280.53" transformations="translations" pos="372 448" stroke="black" type="label" width="234.07" height="8.799" depth="3.61" valign="baseline" size="tiny">$p$ is the intersection of $y = x \tan{\alpha}$ and $y = \sqrt{\frac{d^2}{4} - {(x-\frac{d}{2})}^2} = \sqrt{xd -x^2}$.</text>
+<text matrix="1 0 0 1 -28 -152" transformations="translations" pos="152 288" stroke="black" type="label" width="66.621" height="5.223" depth="1.99" valign="baseline" size="tiny">$p_x^2 \tan^2 \alpha = p_x d - p_x^2$</text>
+<text matrix="1 0 0 1 -28 -152" transformations="translations" pos="152 268" stroke="black" type="label" width="65.782" height="5.223" depth="1.99" valign="baseline" size="tiny">$p_x^2 (1 + \tan^2 \alpha) = p_x d$</text>
+<text matrix="1 0 0 1 -28 -152" transformations="translations" pos="152 244" stroke="black" type="label" width="47.706" height="5.389" depth="4.86" valign="baseline" size="tiny">$p_x = \frac{d}{1+\tan^2 \alpha}$</text>
+<text matrix="1 0 0 1 -32 -148.39" transformations="translations" pos="156 216" stroke="black" type="label" width="47.58" height="5.389" depth="4.86" valign="baseline" size="tiny">$p_y = \frac{d \tan \alpha}{1+\tan^2 \alpha}$</text>
+<text layer="trB" matrix="1 0 0 1 -28 -152" transformations="translations" pos="296 256" stroke="black" type="label" width="78.212" height="7.267" depth="4.86" valign="baseline" size="tiny">$B = \frac{d p_y}{2} = \frac{d^2}{2} \frac{\tan \alpha}{1+\tan^2 \alpha}$</text>
+<text layer="trC" matrix="1 0 0 1 -28 -180.39" transformations="translations" pos="296 256" stroke="black" type="label" width="111.773" height="7.15" depth="4.86" valign="baseline" size="tiny">$C = \frac{p_x p_y}{2} = \frac{d^2}{2} \frac{\tan \alpha}{1+2\tan^2 \alpha+\tan^4 \alpha}$</text>
+<path layer="quadri" matrix="1 0 0 1 164 -88" stroke="black">
+218.747 581.794 m
+7.82058 0 0 -7.82058 224 576 229.253 570.207 a
+</path>
+<path matrix="-1 0 0 -1 787.998 1160" stroke="black">
+218.747 581.794 m
+7.82058 0 0 -7.82058 224 576 229.253 570.207 a
+</path>
+<path matrix="0 1 -1 0 1092 264" stroke="black">
+218.747 581.794 m
+7.82058 0 0 -7.82058 224 576 229.253 570.207 a
+</path>
+<path matrix="1 0 0 1 212 -184" stroke="black">
+160 784 m
+352 768 l
+304 672 l
+176 672 l
+160 784 l
+</path>
+<path matrix="0 -1 1 0 -204 824" stroke="black">
+218.747 581.794 m
+7.82058 0 0 -7.82058 224 576 229.253 570.207 a
+</path>
+<text matrix="1 0 0 1 179.629 132" transformations="translations" pos="199.821 368" stroke="black" type="label" width="7.261" height="3.464" depth="1.49" valign="baseline" size="tiny">$\theta_1$</text>
+<text matrix="1 0 0 1 164 -88" transformations="translations" pos="216 632" stroke="black" type="label" width="7.573" height="3.464" depth="1.49" valign="baseline" size="tiny">$d_1$</text>
+<text matrix="1 0 0 1 244.427 -43.464" transformations="translations" pos="216 632" stroke="black" type="label" width="7.573" height="3.464" depth="1.49" valign="baseline" size="tiny">$d_2$</text>
+<text matrix="1 0 0 1 312 -99.464" transformations="translations" pos="216 632" stroke="black" type="label" width="7.573" height="3.464" depth="1.49" valign="baseline" size="tiny">$d_3$</text>
+<text matrix="1 0 0 1 228.427 -147.464" transformations="translations" pos="216 632" stroke="black" type="label" width="7.573" height="3.464" depth="1.49" valign="baseline" size="tiny">$d_4$</text>
+<path matrix="0 -1 1 0 -176.02 849.367" stroke="black">
+163.488 642.734 m
+166.179 645.174 l
+163.739 647.865 l
+</path>
+<path matrix="0 1 -1 0 1091.18 263.257" stroke="black">
+163.488 642.734 m
+166.179 645.174 l
+163.739 647.865 l
+</path>
+<path matrix="-1 0 0 -1 751.161 1200.63" stroke="black">
+163.488 642.734 m
+166.179 645.174 l
+163.739 647.865 l
+</path>
+<path matrix="-1 0 0 -1 751.161 1200.63" stroke="black">
+163.488 642.734 m
+166.179 645.174 l
+163.739 647.865 l
+</path>
+<text matrix="1 0 0 1 163.233 220.424" transformations="translations" pos="199.821 368" stroke="black" type="label" width="22.627" height="4.074" depth="2.65" valign="baseline" size="tiny">$\frac{\pi}{2} - \theta_1$</text>
+<text matrix="1 0 0 1 164 -85.851" transformations="translations" pos="229.789 581.259" stroke="black" type="label" width="8.303" height="2.149" depth="1.49" valign="baseline" size="tiny">$\omega_1$</text>
+<text matrix="1 0 0 1 166.857 -88" transformations="translations" pos="229.253 570.207" stroke="black" type="label" width="37.195" height="3.464" depth="1.49" valign="baseline" size="tiny">$\pi - \theta_1 - \omega_1$</text>
+<text matrix="1 0 0 1 238.398 -88.0003" transformations="translations" pos="229.253 570.207" stroke="black" type="label" width="55.765" height="4.074" depth="2.65" valign="baseline" size="tiny">$\theta_4 = \theta_1 + \omega_1 - \frac{\pi}{2}$</text>
+<path matrix="1 0 0 1 164 -88" stroke="black" dash="dashed">
+208 688 m
+352.001 576 l
+</path>
+<text layer="trB" matrix="1 0 0 1 243.419 -76.5267" transformations="translations" pos="240 380" stroke="black" type="label" width="11.395" height="9.803" depth="0" valign="baseline" size="Large">$B$</text>
+<path matrix="1 0 0 1 212 -84" fill="blue" opacity="30%">
+192 368 m
+311.458 437.592 l
+352 368 l
+h
+</path>
+<path layer="trC" matrix="1 0 0 1 212 -160" fill="green" opacity="30%">
+192 368 m
+311.458 437.591 l
+311.458 368 l
+h
+</path>
+<path layer="trA" matrix="1 0 0 1 212 -216" fill="orange" opacity="60%">
+192 368 m
+272 414.605 l
+272 368 l
+h
+</path>
+<text matrix="1 0 0 1 211.233 -216.891" transformations="translations" pos="240 380" stroke="black" type="label" width="10.53" height="9.803" depth="0" valign="baseline" size="Large">$A$</text>
+<text layer="trC" matrix="1 0 0 1 232.554 -157.643" transformations="translations" pos="240 380" stroke="black" type="label" width="11.08" height="9.803" depth="0" valign="baseline" size="Large">$C$</text>
+<text layer="trA" matrix="1 0 0 1 175.146 -287.029" transformations="translations" pos="240 380" stroke="black" type="label" width="44.587" height="7.972" depth="4.73" valign="baseline" size="tiny">$A = C {\left(\frac{\sfrac{d}{2}}{p_x}\right)}^2$</text>
+<text layer="alpha" matrix="1 0 0 1 -34.4277 -154.269" transformations="translations" pos="182.677 364.254" stroke="black" type="label" width="15.682" height="3.741" depth="1.24" valign="baseline" size="tiny">$(0,0)$</text>
+<path layer="h" matrix="1 0 0 1 -33.1485 -143.162" stroke="black" arrow="linear/normal" rarrow="linear/normal">
+311.458 437.592 m
+192 368 l
+</path>
+<text matrix="1 0 0 1 -38.0534 -151.102" transformations="translations" pos="251.729 414.796" stroke="black" type="label" width="4.122" height="3.459" depth="0" valign="baseline" size="tiny">$h$</text>
+<path matrix="1 0 0 1 -28 -152" stroke="black">
+192 368 m
+186.852 376.838 l
+</path>
+<path matrix="1 0 0 1 91.458 -82.4084" stroke="black">
+192 368 m
+186.852 376.838 l
+</path>
+<text matrix="1 0 0 1 -1.8692 -148.658" transformations="translations" pos="415.621 208.162" stroke="black" type="label" width="37.144" height="8.114" depth="4.24" valign="baseline" size="tiny">$h = \frac{d}{2}\sqrt{\frac{B}{A}}$</text>
+<text layer="trA" matrix="1 0 0 1 239.13 -361.385" transformations="translations" pos="176 484" stroke="black" type="label" width="44.685" height="7.972" depth="4.73" valign="baseline" size="tiny">$B = A {\left(\frac{h}{\sfrac{d}{2}}\right)}^2$</text>
+<path layer="axis" matrix="1 0 0 1 -28 -152" stroke="red" arrow="pointed/tiny" rarrow="pointed/tiny">
+192 384 m
+192 368 l
+208 367.999 l
+</path>
+<use layer="alpha" matrix="-0.554693 0.832055 -0.832055 -0.554693 765.144 1126.5" name="mark/disk(sx)" pos="32 752" size="normal" stroke="black"/>
+<use matrix="-0.554693 0.832055 -0.832055 -0.554693 765.144 1126.5" name="mark/disk(sx)" pos="64 800" size="normal" stroke="black"/>
+<use matrix="-0.554693 0.832055 -0.832055 -0.554693 765.144 1126.5" name="mark/disk(sx)" pos="144 752" size="normal" stroke="black"/>
+<path matrix="-0.554693 0.832055 -0.832055 -0.554693 765.144 1126.5" stroke="black">
+59.6619 793.493 m
+7.82058 0 0 7.82058 64 800 70.7061 795.976 a
+</path>
+<text matrix="-0.554693 0.832055 -0.832055 -0.554693 765.812 1129.25" transformations="translations" pos="64.3268 792.186" stroke="black" type="label" width="4.066" height="2.153" depth="0.96" valign="baseline" size="tiny">$\gamma$</text>
+<text matrix="-0.554693 0.832055 -0.832055 -0.554693 765.823 1111.92" transformations="translations" pos="41.7884 777.989" stroke="black" type="label" width="3.858" height="2.145" depth="0" valign="baseline" size="tiny">$a$</text>
+<text matrix="-0.554693 0.832055 -0.832055 -0.554693 750.055 1120.88" transformations="translations" pos="110.381 780.121" stroke="black" type="label" width="3.155" height="3.459" depth="0" valign="baseline" size="tiny">$b$</text>
+<path matrix="-0.554693 0.832055 -0.832055 -0.554693 778.457 1135.38" stroke="black" arrow="linear/normal" rarrow="linear/normal">
+32 752 m
+144 752 l
+</path>
+<text matrix="-0.554693 0.832055 -0.832055 -0.554693 782.316 1108.68" transformations="translations" pos="84 728" stroke="black" type="label" width="98.828" height="8.544" depth="3.81" valign="baseline" size="tiny">$c = \sqrt{{(b \cos \gamma - a)}^2+{(b \sin \gamma)}^2}$</text>
+<path matrix="-0.554693 0.832055 -0.832055 -0.554693 765.144 1126.5" stroke="black">
+32 752 m
+64 800 l
+144 752 l
+32 752 l
+</path>
+<path matrix="0.554693 -0.832055 0.832055 0.554693 -579.456 330.051" stroke="black" arrow="linear/normal" rarrow="linear/normal">
+32 752 m
+64 800 l
+</path>
+<path matrix="-0.554693 0.832055 -0.832055 -0.554693 749.698 1126.5" stroke="black" arrow="linear/normal" rarrow="linear/normal">
+64 800 m
+144 752 l
+</path>
+<text transformations="translations" pos="125.983 735.871" stroke="black" type="label" width="16.15" height="3.741" depth="1.24" valign="baseline" size="tiny">$(a,0)$</text>
+<path matrix="1 0 0 1 -128 368" stroke="red" arrow="pointed/tiny" rarrow="pointed/tiny">
+192 384 m
+192 368 l
+208 367.999 l
+</path>
+<text matrix="1 0 0 1 -24.6715 1.01773" transformations="translations" pos="49.5891 832.465" stroke="black" type="label" width="45.876" height="3.741" depth="1.24" valign="baseline" size="tiny">$(b \cos \gamma, b \sin \gamma)$</text>
+<text matrix="1 0 0 1 38.7701 -47.7172" transformations="translations" pos="108.196 806.199" stroke="black" type="label" width="80.297" height="8.684" depth="3.67" valign="baseline" size="tiny">$c = \sqrt{a^2 + b^2 - 2ab \cos \gamma}$</text>
+<text layer="quadri" matrix="0.789354 -0.613938 0.613938 0.789354 -165.837 2.81484" pos="108.196 806.199" stroke="black" type="label" width="80.595" height="7.744" depth="4.61" valign="baseline" size="tiny">$\sqrt{d_1^2 + d_4^2 - 2 d_1 d_4 \cos \omega_1}$</text>
+<text layer="alpha" matrix="1 0 0 1 -41.5536 69.8531" transformations="translations" pos="65.1762 625.601" stroke="black" type="label" width="170.383" height="7.744" depth="4.61" valign="baseline" size="tiny">$\sqrt{d_1^2 + d_4^2 - 2 d_1 d_4 \cos \omega_1} = \sqrt{d_2^2+d_3^2-2d_2d_3\cos \omega_3}$</text>
+<text matrix="1 0 0 1 -65.1762 48.8846" transformations="translations" pos="65.1762 625.601" stroke="black" type="label" width="150.458" height="5.224" depth="2.79" valign="baseline" size="tiny">$d_1^2 + d_4^2 - 2 d_1 d_4 \cos \omega_1 = d_2^2+d_3^2-2d_2d_3\cos \omega_3$</text>
+<text layer="quadri" matrix="1 0 0 1 317.528 -3.48428" transformations="translations" pos="229.789 581.259" stroke="black" type="label" width="8.303" height="2.149" depth="1.49" valign="baseline" size="tiny">$\omega_3$</text>
+<text layer="alpha" matrix="1 0 0 1 -65.1762 33.1886" transformations="translations" pos="65.1762 625.601" stroke="black" type="label" width="156.131" height="5.224" depth="2.79" valign="baseline" size="tiny">$d_1^2 - d_2^2 - d_3^2 + d_4^2 - 2 d_1 d_4 \cos \omega_1 = -2d_2d_3\cos \omega_3$</text>
+<text matrix="1 0 0 1 -65.1762 14.709" transformations="translations" pos="65.1762 625.601" stroke="black" type="label" width="146.759" height="10.203" depth="7.73" valign="baseline" size="tiny">$\omega_3 = \arccos{\left(-\frac{d_1^2 - d_2^2 - d_3^2 + d_4^2 - 2 d_1 d_4 \cos \omega_1}{2d_2d_3}\right)}$</text>
+<text matrix="1 0 0 1 32.8271 -0.388414" transformations="translations" pos="108.196 806.199" stroke="black" type="label" width="79.502" height="10.203" depth="7.73" valign="baseline" size="tiny">$ \gamma = \arccos{\left(\frac{a^2 +  b^2 - c^2}{2ab}\right)}$</text>
+<text layer="quadri" matrix="1 0 0 1 147.589 12.729" transformations="translations" pos="229.789 581.259" stroke="black" type="label" width="8.303" height="2.149" depth="1.49" valign="baseline" size="tiny">$\omega_2$</text>
+<text matrix="1 0 0 1 279.483 -82.666" transformations="translations" pos="229.789 581.259" stroke="black" type="label" width="8.303" height="2.149" depth="1.49" valign="baseline" size="tiny">$\omega_4$</text>
+<text layer="alpha" matrix="1 0 0 1 0 16.8645" transformations="translations" pos="282.326 805.896" stroke="black" type="label" width="308.504" height="16.178" depth="13.71" valign="baseline" size="tiny">$\omega_2 = \arccos{\left(\frac{d_1^2 +  {\sqrt{d_1^2 + d_4^2 - 2 d_1 d_4 \cos \omega_1}}^2 - d_4^2}{2d_1 \sqrt{d_1^2 + d_4^2 - 2 d_1 d_4 \cos \omega_1}}\right)} + \arccos{\left(\frac{d_2^2 +  {\sqrt{d_1^2 + d_4^2 - 2 d_1 d_4 \cos \omega_1}}^2 - d_3^2}{2d_2{\sqrt{d_1^2 + d_4^2 - 2 d_1 d_4 \cos \omega_1}}}\right)}$</text>
+<path layer="sandbox" matrix="1 0 0 1 -4.4368 93.1897" stroke="black">
+7.82058 0 0 7.82058 64 736 e
+</path>
+<path layer="alpha" stroke="black">
+113.868 736 m
+7.82058 0 0 -7.82058 121.689 736 117.351 742.507 a
+</path>
+<path stroke="black">
+59.9351 821.378 m
+7.82058 0 0 7.82058 59.5632 829.19 63.9012 822.683 a
+</path>
+<text matrix="1 0 0 1 -1.42269 0.355672" transformations="translations" pos="63.0692 815.334" stroke="black" type="label" width="4.55" height="2.145" depth="0" valign="baseline" size="tiny">$\alpha$</text>
+<text matrix="1 0 0 1 1.06702 2.66754" transformations="translations" pos="108.062 739.043" stroke="black" type="label" width="4.194" height="3.468" depth="0.96" valign="baseline" size="tiny">$\beta$</text>
+<text matrix="1 0 0 1 -14.9759 23.1711" transformations="translations" pos="108.196 806.199" stroke="black" type="label" width="79.985" height="10.203" depth="7.73" valign="baseline" size="tiny">$ \alpha = \arccos{\left(\frac{b^2 +  c^2 - a^2}{2bc}\right)}$</text>
+<text matrix="1 0 0 1 73.6018 23.8121" transformations="translations" pos="108.196 806.199" stroke="black" type="label" width="79.63" height="10.203" depth="7.73" valign="baseline" size="tiny">$\beta = \arccos{\left(\frac{a^2 +  c^2 - b^2}{2ac}\right)}$</text>
+<text matrix="1 0 0 1 -0.00044456 -15.1434" transformations="translations" pos="282.326 805.896" stroke="black" type="label" width="262.889" height="13.187" depth="11.72" valign="baseline" size="tiny">$\omega_2 = \arccos{\left(\frac{d_1 - d_4 \cos \omega_1 }{\sqrt{d_1^2 + d_4^2 - 2 d_1 d_4 \cos \omega_1}}\right)} + \arccos{\left(\frac{d_2^2 +  d_1^2 + d_4^2 - 2 d_1 d_4 \cos \omega_1 - d_3^2}{2d_2{\sqrt{d_1^2 + d_4^2 - 2 d_1 d_4 \cos \omega_1}}}\right)}$</text>
+<text matrix="1 0 0 1 -7.86104 -50.7501" transformations="translations" pos="282.326 805.896" stroke="black" type="label" width="308.504" height="16.178" depth="13.71" valign="baseline" size="tiny">$\omega_4 = \arccos{\left(\frac{d_4^2 +  {\sqrt{d_1^2 + d_4^2 - 2 d_1 d_4 \cos \omega_1}}^2 - d_1^2}{2d_4 \sqrt{d_1^2 + d_4^2 - 2 d_1 d_4 \cos \omega_1}}\right)} + \arccos{\left(\frac{d_3^2 +  {\sqrt{d_1^2 + d_4^2 - 2 d_1 d_4 \cos \omega_1}}^2 - d_2^2}{2d_3{\sqrt{d_1^2 + d_4^2 - 2 d_1 d_4 \cos \omega_1}}}\right)}$</text>
+<text layer="quadri" matrix="1 0 0 1 -8.00044 -87.1434" transformations="translations" pos="282.326 805.896" stroke="black" type="label" width="262.889" height="13.187" depth="11.72" valign="baseline" size="tiny">$\omega_4 = \arccos{\left(\frac{d_4 - d_1 \cos \omega_1 }{\sqrt{d_1^2 + d_4^2 - 2 d_1 d_4 \cos \omega_1}}\right)} + \arccos{\left(\frac{d_3^2 +  d_1^2 + d_4^2 - 2 d_1 d_4 \cos \omega_1 - d_2^2}{2d_3{\sqrt{d_1^2 + d_4^2 - 2 d_1 d_4 \cos \omega_1}}}\right)}$</text>
+<text matrix="1 0 0 1 -296 356" transformations="translations" pos="296 256" stroke="black" type="label" width="300.503" height="9.856" depth="6.68" valign="baseline" size="tiny">$G(d_1,d_2,d_3,\omega_1,\theta_1) =
+\frac{d_1^2}{2}  \frac{\tan \theta_1}{1+\tan^2 \theta_1} +
+\frac{d_2^2}{2}  \frac{\tan \theta_2}{1+\tan^2 \theta_2} +
+\frac{d_3^2}{2}  \frac{\tan \theta_3}{1+\tan^2 \theta_3} +
+\frac{d_4^2}{2}  \frac{\tan {(\theta_1 + \omega_1 - \frac{\pi}{2})}}{1+\tan^2 {(\theta_1 + \omega_1 - \frac{\pi}{2})}}$</text>
+<text matrix="1 0 0 1 0 8" transformations="translations" pos="40 516" stroke="black" type="label" width="76.853" height="14.196" depth="2.65" valign="baseline" size="tiny">$\tan(\arccos x) = \frac{\sqrt{1-x^2}}{x}$</text>
+<text matrix="1 0 0 1 0 28" transformations="translations" pos="40 516" stroke="black" type="label" width="76.372" height="8.744" depth="3.61" valign="baseline" size="tiny">$\sin(\arccos x) =\sqrt{1-x^2}$</text>
+<text matrix="1 0 0 1 0 48" transformations="translations" pos="40 516" stroke="black" type="label" width="51.167" height="3.741" depth="1.24" valign="baseline" size="tiny">$\cos(\arccos x) = x$</text>
+<text transformations="translations" pos="36 580" stroke="black" type="label" width="84.775" height="6.271" depth="3.78" valign="baseline" size="tiny">$\tan(\alpha + \beta) = \frac{\tan \alpha + \tan \beta}{1 - \tan \alpha \tan \beta}$</text>
+<text matrix="1 0 0 1 -64 -4" transformations="translations" pos="564 572" stroke="black" type="label" width="70.333" height="3.464" depth="1.49" valign="baseline" size="tiny">$\theta_3 = \pi + \theta_1 - \omega_2 - \omega_3$</text>
+<text matrix="1 0 0 1 92 0" transformations="translations" pos="36 580" stroke="black" type="label" width="84.775" height="6.271" depth="3.78" valign="baseline" size="tiny">$\tan(\alpha - \beta) = \frac{\tan \alpha - \tan \beta}{1 + \tan \alpha \tan \beta}$</text>
+<text matrix="1 0 0 1 -48 12" transformations="translations" pos="176 556" stroke="black" type="label" width="63.195" height="3.741" depth="1.24" valign="baseline" size="tiny">$(\tan{(-\alpha)} = -\tan{\alpha})$</text>
+<text matrix="1 0 0 1 -296 248" transformations="translations" pos="296 256" stroke="black" type="label" width="258.706" height="9.851" depth="5.53" valign="baseline" size="tiny">$G(d_1,d_2,d_3,\omega_1,\frac{\pi}{4}) =
+\frac{d_1^2}{4}  +
+\frac{d_2^2}{4} \frac{\tan^2 \omega_2 - 1}{\tan^2 \omega_2 + 1} +
+\frac{d_3^2}{4}  \frac{1-\tan^2{(\omega_2 + \omega_3)}}{1+\tan^2{(\omega_2 + \omega_3)}} +
+\frac{d_4^2}{4}  \frac{\tan^2 \omega_1 - 1}{\tan^2 \omega_1 +  1}$</text>
+<text transformations="translations" pos="384 604" stroke="black" type="label" width="55.765" height="4.074" depth="2.65" valign="baseline" size="tiny">$\theta_2 = \frac{\pi}{2} + \theta_1 - \omega_2$</text>
+<text matrix="1 0 0 1 -8 0" transformations="translations" pos="536 592" stroke="black" type="label" width="24.22" height="3.464" depth="1.49" valign="baseline" size="tiny">$\omega_2 - \theta_1$</text>
+<text matrix="1 0 0 1 -44 -72" transformations="translations" pos="564 572" stroke="black" type="label" width="56.269" height="4.074" depth="2.65" valign="baseline" size="tiny">$\omega_2 +\omega_3 - \frac{\pi}{2} - \theta_1$</text>
+<path stroke="black" dash="dotted">
+323.808 216.33 m
+159.808 0 0 159.808 164 215.999 164 375.808 a
+</path>
+<text layer="trA" matrix="1 0 0 1 28 -328" transformations="translations" pos="240 380" stroke="black" type="label" width="41.138" height="7.15" depth="2.65" valign="baseline" size="tiny">$A = \frac{d^2}{8} \tan \alpha$</text>
+<text layer="h" matrix="1 0 0 1 -147.621 -176.162" transformations="translations" pos="415.621 208.162" stroke="black" type="label" width="57.349" height="6.964" depth="5.39" valign="baseline" size="tiny">$h = d\sqrt{\frac{1}{1+\tan^2 \alpha}}$</text>
+<text layer="quadri" matrix="1 0 0 1 -48 0" transformations="translations" pos="176 556" stroke="black" type="label" width="68.936" height="5.14" depth="2.65" valign="baseline" size="tiny">$(\tan{(\frac{\pi}{2}-\alpha)} = \frac{1}{\tan{\alpha}})$</text>
+<text matrix="1 0 0 1 -48 -12" transformations="translations" pos="176 556" stroke="black" type="label" width="74.056" height="5.14" depth="2.65" valign="baseline" size="tiny">$(\tan{(\frac{\pi}{2}+\alpha)} = -\frac{1}{\tan{\alpha}})$</text>
+<text matrix="1 0 0 1 -48 -25.35" transformations="translations" pos="176 556" stroke="black" type="label" width="77.723" height="5.998" depth="3.5" valign="baseline" size="tiny">$(\tan{(\frac{\pi}{4}-\alpha)} = \frac{1-\tan \alpha}{1+\tan{\alpha}})$</text>
+</page>
+</ipe>
